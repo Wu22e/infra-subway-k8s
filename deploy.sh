@@ -96,7 +96,7 @@ function check_exists_process_pid() {
     echo "No exist application."
   else
     echo "Kill exist application"
-    kill -9 "$CURRENT_PID"
+    kill -9 $CURRENT_PID
   fi
 }
 
